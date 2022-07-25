@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <h1>Wiki Finder</h1>
         <form className="searchBox">
-          <input />
+          <input type='search' placeholder='What are you searching for?' />
         </form>
       </header>
     </div>
