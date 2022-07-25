@@ -5,7 +5,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Wiki Finder</h1>
-        <form></form>
+        <form className="searchBox">
+          <input />
+        </form>
       </header>
     </div>
   );
