@@ -27,4 +27,6 @@ h1{
   overflow: hidden;
   width: 100%;
   max-width: 480px;
+  margin-bottom: 1rem;
+  transition: 0.4s;
 }
