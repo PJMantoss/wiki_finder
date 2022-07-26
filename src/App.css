@@ -76,3 +76,9 @@ h1{
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
+
+.result a{
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  background: #A84fff;
+}
