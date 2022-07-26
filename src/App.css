@@ -90,6 +90,5 @@ h1{
 }
 
 .result a:hover{
-  background-image: #fff;
-  color: #A84fff;
+  background: rgb(248, 148, 165);
 }
