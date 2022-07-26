@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const [search, setSearch] = useState('');
+
   return (
     <div className='App'>
       <header>
