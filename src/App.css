@@ -88,3 +88,8 @@ h1{
   font-weight: 700;
   transition: 0.4s;
 }
+
+.result a:hover{
+  background-image: #fff;
+  color: #A84fff;
+}
