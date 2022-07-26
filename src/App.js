@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
   const [search, setSearch] = useState('');
+  const [results, setResults] = useState([]);
+  const [searchInfo, setSearchInfo] = useState({});
 
   return (
     <div className='App'>
