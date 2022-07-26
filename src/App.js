@@ -12,8 +12,8 @@ function App() {
       </header>
       <div className='results'>
         <div className='result'>
-          <h3></h3>
-          <p></p>
+          <h3>Title</h3>
+          <p>lorem ipsum dolo si ta me</p>
         </div>
       </div>
     </div>
