@@ -13,7 +13,7 @@ function App() {
       <div className='results'>
         <div className='result'>
           <h3>Title</h3>
-          <p>lorem ipsum dolo si ta me</p>
+          <p>lorem ipsum dolo si ta me lorem ipsum dolo si ta me lorem ipsum dolo si ta me</p>
           <a href='#'>Read more</a>
         </div>
       </div>
