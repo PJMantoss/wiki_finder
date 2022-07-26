@@ -54,5 +54,6 @@ h1{
 
 .result {
   width: 100%;
-  
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
