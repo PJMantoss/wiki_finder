@@ -18,3 +18,10 @@ h1{
   font-size: 42px;
   margin-bottom: 1rem;
 }
+
+.searchBox{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 480px;
+}
