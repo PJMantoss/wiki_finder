@@ -14,7 +14,7 @@ function App() {
         <div className='result'>
           <h3>Title</h3>
           <p>lorem ipsum dolo si ta me</p>
-          <a href='#'></a>
+          <a href='#'>Read more</a>
         </div>
       </div>
     </div>
