@@ -70,3 +70,9 @@ h1{
   font-size: 1.7rem;
   margin-bottom: 1rem;
 }
+
+.result p{
+  color: #888;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
