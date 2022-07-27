@@ -50,9 +50,9 @@ function App() {
         }
       </header>
       <div className='results'>
-        {results.map(result => {
+        {results.map((result, pageid) => {
           return(
-            <div className='result'>
+            <div className='result' key={result.pageid}>
               <h3>{result.title}</h3>
               <p>lorem ipsum dolo si ta me lorem ipsum dolo si ta me lorem ipsum dolo si ta me</p>
               <a href='#'>Read more</a>
