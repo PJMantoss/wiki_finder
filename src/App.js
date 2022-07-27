@@ -42,6 +42,7 @@ function App() {
             type='submit' 
             value='Search' 
             onClick={handleSearch} 
+            id='searchBtn'
           />
         </form>
         {
