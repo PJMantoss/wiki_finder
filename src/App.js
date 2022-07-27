@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
           )
         })}
       </div>
+      <Footer />
     </div>
   );
 }
