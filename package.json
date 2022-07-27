@@ -1,5 +1,6 @@
 {
   "name": "wiki_finder",
+  "homepage": "https://pjmantoss.github.io/wiki_finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
