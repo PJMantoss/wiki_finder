@@ -15,7 +15,13 @@ function App() {
 
     const response = await fetch(endpoint);
 
-    console.log(response);
+    if(!response.ok){
+      throw Error(response.statusText);
+    }
+
+    const results = response.json();
+
+    console.log(results);
   };
 
   return (
