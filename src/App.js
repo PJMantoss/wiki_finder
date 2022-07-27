@@ -6,7 +6,9 @@ function App() {
   const [results, setResults] = useState([]);
   const [searchInfo, setSearchInfo] = useState({});
 
-  const handleSearch = () => {};
+  const handleSearch = async e => {
+    e.preventDefault();
+  };
 
   return (
     <div className='App'>
