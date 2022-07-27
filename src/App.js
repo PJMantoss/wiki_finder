@@ -6,11 +6,13 @@ function App() {
   const [results, setResults] = useState([]);
   const [searchInfo, setSearchInfo] = useState({});
 
+  const handleSearch = () => {};
+
   return (
     <div className='App'>
       <header>
         <h1>Wiki Finder</h1>
-        <form className='searchBox'>
+        <form className='searchBox' onSubmit={handleSearch}>
           <input 
             type='search' 
             value={search}
