@@ -99,13 +99,16 @@ h1{
   color: #fff;
   font-size: 0.8rem;
   text-decoration: none;
+  text-transform: capitalize;
   border-radius: 0.8rem;
   font-weight: 700;
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .result a:hover{
-  background: rgb(245, 102, 125);
+  background: #eee;
+  color: #A84fff;
 }
 
 @media only screen and (max-width: 480px){
