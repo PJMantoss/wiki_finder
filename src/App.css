@@ -96,6 +96,7 @@ h1{
 
 .result p .searchmatch {
   font-weight: 700;
+  color: green;
 }
 
 .result a{
