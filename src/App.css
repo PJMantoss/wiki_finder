@@ -52,6 +52,11 @@ h1{
   cursor: pointer;
 }
 
+#searchBtn:hover{
+  background: #eee;
+  color: #A84fff;
+}
+
 .searchBox:focus-within {
   box-shadow: 3px 3px 6px rgba(0,0,0,0.2);
   transform: translateY(-5px);
