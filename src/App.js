@@ -50,7 +50,7 @@ function App() {
         }
       </header>
       <div className='results'>
-        {results.map((result, pageid) => {
+        {results.map(result => {
           return(
             <div className='result' key={result.pageid}>
               <h3>{result.title}</h3>
