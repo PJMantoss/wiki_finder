@@ -53,8 +53,9 @@ h1{
 }
 
 #searchBtn:hover{
-  background: #eee;
+  background: white;
   color: #A84fff;
+  border: 1px solid #A84fff;
 }
 
 .searchBox:focus-within {
