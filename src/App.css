@@ -45,7 +45,7 @@ h1{
 
 #searchBtn{
   flex: 1;
-  background: #A84fff;
+  background: green;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
@@ -55,8 +55,8 @@ h1{
 
 #searchBtn:hover{
   background: white;
-  color: #A84fff;
-  border: 1px solid #A84fff;
+  color: green;
+  border: 1px solid green;
 }
 
 .searchBox:focus-within {
@@ -101,7 +101,7 @@ h1{
 .result a{
   display: inline-block;
   padding: 0.8rem 1rem;
-  background: #A84fff;
+  background: green;
   color: #fff;
   font-size: 0.8rem;
   text-decoration: none;
@@ -114,8 +114,8 @@ h1{
 
 .result a:hover{
   background: white;
-  color: #A84fff;
-  border: 1px solid #A84fff;
+  color: green;
+  border: 1px solid green;
 }
 
 @media only screen and (max-width: 480px){
