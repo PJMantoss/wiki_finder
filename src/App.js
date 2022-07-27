@@ -8,7 +8,7 @@ function App() {
 
   const handleSearch = async e => {
     e.preventDefault();
-    if(search === '') return;
+    if(search === ' ') return;
 
     const endpoint = `https://en.wikipedia.org/w/api.php?action=query&list=search&
     prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${search}`;
@@ -26,7 +26,7 @@ function App() {
           <input 
             type='search' 
             value={search}
-            onChange={e => e.target.value}
+            onChange={e => setSearch(e.target.value)}
             placeholder='What are you searching?' 
           />
         </form>
