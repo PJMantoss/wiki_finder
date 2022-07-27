@@ -22,7 +22,6 @@ function App() {
     const resultJSON = await response.json();
     console.log(resultJSON);
     setResults(resultJSON.query.search);
-
     setSearchInfo(resultJSON.query.searchinfo);
   
   };
