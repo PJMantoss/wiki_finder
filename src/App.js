@@ -20,23 +20,28 @@ function App() {
     }
 
     const resultJSON = await response.json();
-
+    console.log(resultJSON);
     setResults(resultJSON.query.search);
 
     setSearchInfo(resultJSON.query.searchinfo);
-    // console.log(results);
+  
   };
 
   return (
     <div className='App'>
       <header>
         <h1>Wiki Finder</h1>
-        <form className='searchBox' onSubmit={handleSearch}>
+        <form className='searchBox'>
           <input 
             type='search' 
             value={search}
             onChange={e => setSearch(e.target.value)}
             placeholder='What are you searching?' 
+          />
+          <input 
+            type='submit' 
+            value='Search' 
+            onSubmit={handleSearch} 
           />
         </form>
         {
