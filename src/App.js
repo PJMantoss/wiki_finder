@@ -9,6 +9,8 @@ function App() {
   const handleSearch = async e => {
     e.preventDefault();
     if(search === '') return;
+
+    const endpoint = ``;
   };
 
   return (
