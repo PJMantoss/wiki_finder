@@ -11,7 +11,12 @@ function App() {
       <header>
         <h1>Wiki Finder</h1>
         <form className='searchBox'>
-          <input type='search' placeholder='What are you searching?' />
+          <input 
+            type='search' 
+            value={search}
+            onChange={e => e.target.value}
+            placeholder='What are you searching?' 
+          />
         </form>
         <p className='searchResults'>Search Results: 0</p>
       </header>
