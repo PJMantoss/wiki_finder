@@ -19,9 +19,12 @@ function App() {
       throw Error(response.statusText);
     }
 
-    const results = await response.json();
+    const resultJSON = await response.json();
 
-    console.log(results);
+    setResults(resultJSON.query.search);
+
+    setSearchInfo(resultJSON.query.searchinfo);
+    // console.log(results);
   };
 
   return (
