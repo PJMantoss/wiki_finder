@@ -13,7 +13,7 @@ function App() {
         <form className='searchBox'>
           <input type='search' placeholder='What are you searching?' />
         </form>
-        <p className='searchResults'>Search Results: 10</p>
+        <p className='searchResults'>Search Results: 0</p>
       </header>
       <div className='results'>
         <div className='result'>
