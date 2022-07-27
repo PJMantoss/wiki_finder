@@ -19,7 +19,7 @@ function App() {
       throw Error(response.statusText);
     }
 
-    const results = response.json();
+    const results = await response.json();
 
     console.log(results);
   };
