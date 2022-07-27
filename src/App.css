@@ -94,6 +94,10 @@ h1{
   margin-bottom: 1rem;
 }
 
+.result p .searchmatch {
+  font-weight: 700;
+}
+
 .result a{
   display: inline-block;
   padding: 0.8rem 1rem;
