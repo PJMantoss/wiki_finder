@@ -51,7 +51,7 @@ function App() {
       </header>
       <div className='results'>
         {results.map(result => {
-          const url = `https://en.wikipedia.org/curid=${result.pageid}`
+          const url = `https://en.wikipedia.org/?curid=${result.pageid}`
           return(
             <div className='result' key={result.pageid}>
               <h3>{result.title}</h3>
