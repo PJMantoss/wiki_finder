@@ -54,7 +54,7 @@ function App() {
           return(
             <div className='result' key={result.pageid}>
               <h3>{result.title}</h3>
-              <p>lorem ipsum dolo si ta me lorem ipsum dolo si ta me lorem ipsum dolo si ta me</p>
+              <p dangerouslySetInnerHTML={{__html: result.snippet}}></p>
               <a href='#'>Read more</a>
             </div>
           )
