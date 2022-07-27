@@ -39,7 +39,10 @@ function App() {
             placeholder='What are you searching?' 
           />
         </form>
-        <p className='searchResults'>Search Results: 0</p>
+        {
+          (searchInfo.totalhits) ? 
+          <p className='searchResults'>Search Results: {searchInfo.totalhits}</p> : ''
+        }
       </header>
       <div className='results'>
         <div className='result'>
