@@ -45,6 +45,9 @@ h1{
 
 #searchBtn{
   flex: 1;
+  background: #A84fff;
+  color: #fff;
+  cursor: pointer;
 }
 
 .searchBox:focus-within {
