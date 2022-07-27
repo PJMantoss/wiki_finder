@@ -41,7 +41,7 @@ function App() {
           <input 
             type='submit' 
             value='Search' 
-            onSubmit={handleSearch} 
+            onClick={handleSearch} 
           />
         </form>
         {
