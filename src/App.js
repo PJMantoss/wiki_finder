@@ -51,11 +51,15 @@ function App() {
         }
       </header>
       <div className='results'>
-        <div className='result'>
-          <h3>Title</h3>
-          <p>lorem ipsum dolo si ta me lorem ipsum dolo si ta me lorem ipsum dolo si ta me</p>
-          <a href='#'>Read more</a>
-        </div>
+        {results.map(result => {
+          return(
+            <div className='result'>
+              <h3>{result.title}</h3>
+              <p>lorem ipsum dolo si ta me lorem ipsum dolo si ta me lorem ipsum dolo si ta me</p>
+              <a href='#'>Read more</a>
+            </div>
+          )
+        })}
       </div>
     </div>
   );
