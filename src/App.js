@@ -14,6 +14,8 @@ function App() {
     prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${search}`;
 
     const response = await fetch(endpoint);
+
+    console.log(response);
   };
 
   return (
