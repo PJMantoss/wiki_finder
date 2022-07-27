@@ -33,7 +33,7 @@ h1{
 }
 
 .searchBox input {
-  flex: 2;
+  flex: 3;
   display: block;
   border: 0;
   outline: 0;
