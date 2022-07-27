@@ -1,0 +1,37 @@
+/* Footer */
+.footer {
+    background: transparent;
+    color: #000;
+    text-align: center;
+  }
+  
+  #love {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  #love span a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  #love > span {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  #love img {
+    width: 2%;
+    height: auto;
+    margin: 0 2px;
+  }
+
+  @media only screen and (max-width: 600px){
+    #love img {
+        width: 5%;
+      }
+  }
