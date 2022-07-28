@@ -94,6 +94,7 @@ h1{
   margin-bottom: 1rem;
 }
 
+/* Styling for search phrase (or word) */
 .result p .searchmatch {
   font-weight: 700;
   color: green;
