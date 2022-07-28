@@ -40,7 +40,7 @@ function App() {
           />
           <input 
             type='submit' 
-            value='Search' 
+            value='Find' 
             onClick={handleSearch} 
             id='searchBtn'
           />
