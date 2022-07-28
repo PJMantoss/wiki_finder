@@ -1,5 +1,5 @@
 # Wiki Finder
-A Wikipedia Search Engine built with React JS and Wikipedia API
+A Wikipedia Search Engine built with React JS and the Wikipedia API
 
 ## Tools
 - React JS
