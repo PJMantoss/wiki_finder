@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wiki_finder/static/css/main.6b6f4964.css",
+    "main.js": "/wiki_finder/static/js/main.89bff43a.js",
+    "index.html": "/wiki_finder/index.html",
+    "main.6b6f4964.css.map": "/wiki_finder/static/css/main.6b6f4964.css.map",
+    "main.89bff43a.js.map": "/wiki_finder/static/js/main.89bff43a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b6f4964.css",
+    "static/js/main.89bff43a.js"
+  ]
+}
